@@ -3,7 +3,7 @@ import NewExpense from "./components/NewExpense/NewExpense";
 import Expenses from "./components/expense/Expenses";
 
 const dummy_expenses = [
-  { title: "Car", date: new Date(2023, 2, 6), amount: 20, id: "e1" },
+  { title: "Car", date: new Date(2023, 2, 6), amount: 200, id: "e1" },
 ];
 
 function App() {

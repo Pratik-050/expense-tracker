@@ -5,7 +5,7 @@ import ExpenseFilter from "./ExpenseFilter";
 import ExpenseChart from "./ExpenseChart";
 
 export default function Expenses(props) {
-  const [filteredYear, setFilteredYear] = useState("2020");
+  const [filteredYear, setFilteredYear] = useState("2023");
 
   const filterChangeHandler = (selectedYear) => {
     setFilteredYear(selectedYear);
@@ -18,7 +18,6 @@ export default function Expenses(props) {
   let expenseContent = (
     <p className="text-xl text-center font-bold">No Expenses found</p>
   );
-
   if (filteredExpenses.length > 0) {
     expenseContent = (
       <div>
